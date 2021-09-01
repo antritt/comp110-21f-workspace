@@ -1,9 +1,7 @@
 """Numeric Operators Program!!"""
 __author__ = "730228132"
-num: str = input("Left-hand side : ")
-num: str = input("Right-hand side : ")
-x = 17
-y = 8
+x: str = input("Left-hand side : ")
+y: str = input("Right-hand side : ")
 t1_new = int(x) ** int(y)
 ro = str(t1_new)
 print("17 ** 8 " + "is " + ro)
