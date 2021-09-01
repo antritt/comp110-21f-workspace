@@ -1,0 +1,16 @@
+"""Relational Operators Program!!!"""
+__author__ = "730228132"
+x: str = input("Left-hand side : ")
+y: str = input("Right-hand side : ")
+t1_new = bool(x < y)
+r0 = str(t1_new)
+print(x + " < " + y + " is " + r0)
+t2_new = bool(x >= y)
+r1 = str(t2_new)
+print(x + " >= " + y + " is " + r1)
+t3_new = bool(x == y)
+r2 = str(t3_new)
+print(x + " == " + y + " is " + r2)
+t4_new = bool(x != y)
+r3 = str(t4_new)
+print(x + " != " + y + " is " + r3)
